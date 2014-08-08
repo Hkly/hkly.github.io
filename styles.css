@@ -127,14 +127,15 @@ a:hover {
 }
 
 #portfolio .portfolio-piece {
-  height: 200px;
+  min-height: 300px;
+  min-width: 700px;
   margin: 15px;
   margin-bottom: 60px;
   padding-top: 20px;
 }
 
 #portfolio .project-desc {
-  width: 65%;
+  max-width: 400px;
 }
 
 #portfolio .left-text {
