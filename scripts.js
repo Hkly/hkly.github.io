@@ -6,9 +6,13 @@
   }
 
 $(document).ready(function() {
-
-  setInterval("swapImages('habitrack')", 3000);
-  setInterval("swapImages('asteroids')", 3000);
-
-
+  var projects = ['habitrack', 'asteroids'];
+  var count = 0;
+  setInterval(function() {
+    swapImages(projects[count]);
+    count+= 1;
+    if (count >= projects.length) {
+      count = 0
+    }
+  }, 2000);
 });
