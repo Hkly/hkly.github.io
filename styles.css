@@ -20,6 +20,10 @@ a {
     transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
 }
 
+.project-links a {
+  border-bottom:  1px solid #333;
+}
+
 a:hover {
   color: black;
   text-decoration: none;
@@ -133,6 +137,13 @@ a:hover {
   width: 65%;
 }
 
+#portfolio .left-text {
+  text-align: left;
+}
+
+#portfolio .right-text {
+  text-align: right;
+}
 #portfolio .portfolio-piece div {
   vertical-align: top;
   display: inline-block;
@@ -145,7 +156,6 @@ a:hover {
 
 #portfolio .project-images {
   padding: 3px;
-  /*border: thin solid #333; */
   border-radius: 5px;
   -webkit-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
   -moz-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
