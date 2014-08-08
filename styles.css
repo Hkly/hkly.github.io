@@ -1,0 +1,188 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+a {
+  color: #333;
+  border-bottom: 2px solid #333;
+  -moz-transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, border-bottom 0.35s ease-in-out;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.side-bar {
+  /*background-color: #e3e2dd;*/
+  height: 100%;
+  position: fixed;
+}
+
+#header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#header .avatar {
+  background-image: url("images/avatar.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px auto 0 auto;
+}
+
+#header .language-logos img {
+  display: inline-block;
+  height: 25px;
+}
+
+#header .language-logos .html{
+  height: 30px;
+  margin-top: -6px;
+}
+#header .language-logos .css {
+  height: 30px;
+  margin-top: -6px;
+  margin-left: -6px;
+}
+
+#header .title {
+  font-size: 1.5em;
+}
+
+#side-nav {
+  padding-right: 30px;
+  font-size: 1.4em;
+}
+
+#side-nav a {
+  color: #333;
+  border: none;
+}
+
+#side-nav a:hover {
+  border-right: 2px solid #333;
+}
+
+#side-nav .nav-links-list {
+  list-style: none;
+  text-align: right;
+  line-height: 2;
+}
+
+#side-nav .nav-links-list a {
+  padding-right: 10px;
+}
+
+#side-contact {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#side-contact ul {
+  padding: 0;
+  cursor: default;
+}
+
+.main {
+  text-align: center;
+}
+
+#welcome {
+  padding: 125px;
+}
+
+#welcome h2, h1 {
+  margin: 10px;
+}
+
+#portfolio .portfolio-piece {
+  height: 200px;
+  margin: 15px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+
+#portfolio .project-desc {
+  width: 65%;
+}
+
+#portfolio .portfolio-piece div {
+  vertical-align: top;
+  display: inline-block;
+}
+
+#portfolio .portfolio-piece h2 {
+  margin-top: 10px;
+}
+
+
+#portfolio .project-images {
+  padding: 3px;
+  /*border: thin solid #333; */
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
+  -moz-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
+  box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
+}
+
+#portfolio .project-images img {
+/*  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0;*/
+  display: none;
+}
+
+#portfolio .project-images img.active {
+  /*-webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 1;*/
+  display: block;
+}
+
+#about {
+  padding: 0 70px 70px 70px;
+}
+
+#contact ul {
+  list-style: none;
+  font-size: 4em;
+  padding-left: 0px;
+  cursor: default;
+}
+
+#contact li {
+  padding: 0 15px 0 15px;
+}
+
+.icons .label {
+  display: none;
+}
+
+.icons li {
+  display: inline-block;
+}
+
+.icons a {
+  color: #333;
+  border: none;
+}
+
+.icons a:hover {
+  color: black;
+}
