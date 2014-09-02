@@ -33,6 +33,7 @@ a:hover {
   /*background-color: #e3e2dd;*/
   height: 100%;
   position: fixed;
+  padding-right: 0px;
 }
 
 #header {
@@ -50,17 +51,18 @@ a:hover {
 
 #header .language-logos img {
   display: inline-block;
-  height: 25px;
+  height: 32px;
 }
 
 #header .language-logos .html{
-  height: 30px;
-  margin-top: -6px;
+  height: 38px;
+  margin-top: -8px;
+  margin-left: -3px;
 }
 #header .language-logos .css {
-  height: 30px;
-  margin-top: -6px;
-  margin-left: -6px;
+  height: 38px;
+  margin-top: -8px;
+  margin-left: -11px;
 }
 
 #header .title {
@@ -68,7 +70,7 @@ a:hover {
 }
 
 #side-nav {
-  padding-right: 30px;
+  padding-right: 10px;
   font-size: 1.4em;
 }
 
@@ -126,14 +128,14 @@ a:hover {
 }
 
 #portfolio {
-  margin: 15px;
+  padding: 15px;
 }
 
 #portfolio .portfolio-piece {
   min-height: 300px;
   min-width: 707px;
   margin: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
   padding-top: 20px;
 }
 
@@ -161,9 +163,9 @@ a:hover {
   max-width: 256px;
   padding: 3px;
   border-radius: 5px;
-  -webkit-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
-  -moz-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
-  box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.64);
+  -webkit-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.43);
+  -moz-box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.43);
+  box-shadow: 5px 6px 26px 2px rgba(0,0,0,0.43);
 }
 
 #portfolio .project-images img {
