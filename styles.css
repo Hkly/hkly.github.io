@@ -3,7 +3,6 @@ body {
 }
 
 section {
-  padding-bottom: 50px;
   border-top: thin solid #eee;
 }
 section h1 {
@@ -124,6 +123,10 @@ a:hover {
 
 #welcome h2 {
   padding-bottom: 25px;
+}
+
+#portfolio {
+  margin: 15px;
 }
 
 #portfolio .portfolio-piece {
