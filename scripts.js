@@ -2,8 +2,8 @@
     var $active = $('#'+project+' .active');
     var $next = ($('#'+project+' .active').next().length > 0) ? $('#'+project+' .active').next() : $('#'+project+' img:first');
     $active.removeClass('active');
-    $next.addClass('active');  
-  }
+    $next.addClass('active');
+  };
 
 $(document).ready(function() {
   var projects = ['habitrack', 'asteroids'];
@@ -12,7 +12,7 @@ $(document).ready(function() {
     swapImages(projects[count]);
     count+= 1;
     if (count >= projects.length) {
-      count = 0
+      count = 0;
     }
   }, 2000);
 });
