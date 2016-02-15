@@ -1,0 +1,112 @@
+/*** Mini Reset ***/
+
+* { box-sizing: border-box; }
+
+html, body, div, form, ul, p, h1, h2 {
+ margin: 0;
+ padding: 0;
+}
+
+h1, h2 { font-weight: normal}
+
+img { border: 0; }
+
+/*** body ***/
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #F7F7F7;
+}
+
+a {
+  color: #D2186D;
+}
+
+h1, h2 {
+  font-family: "Droid Serif";
+}
+/*** main ***/
+
+.main-container {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+#intro {
+  margin-top: 10vh;
+}
+
+.title {
+  font-size: 1.7rem;
+}
+
+.tag-line {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.selfie img {
+  border-radius: 250px;
+  max-width: 30vh;
+  margin: 2rem;
+  -webkit-box-shadow: 2px 5px 17px -2px rgba(0,0,0,0.33);
+  -moz-box-shadow: 2px 5px 17px -2px rgba(0,0,0,0.33);
+  box-shadow: 2px 5px 17px -2px rgba(0,0,0,0.33);
+}
+
+.text {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+/***  footer   ***/
+
+.footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 0.7rem 0 0.5rem 0;
+  background-color: #E6E6E6;
+  border-top: 3px solid #E0E0E0;
+}
+
+.main-contact ul {
+  font-size: 2rem;
+  list-style: none;
+}
+
+.main-contact ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.main-contact a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.55s ease;
+}
+
+.main-contact a:hover {
+  color: #D2186D;
+}
+
+/*** mobile ***/
+/* Medium Devices */
+@media only screen and (max-width : 880px) {
+  html {
+    font-size: 16px;
+  }
+  .text {
+    width: 65vw;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .text {
+    width: 85vw;
+  }
+}
