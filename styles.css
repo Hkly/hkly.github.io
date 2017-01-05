@@ -74,6 +74,10 @@ h1, h2 {
   border-top: 3px solid #E0E0E0;
 }
 
+.footer p {
+  margin-bottom: 10px;
+}
+
 .main-contact ul {
   font-size: 2rem;
   list-style: none;
