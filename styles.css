@@ -32,7 +32,7 @@ h1, h2 {
 
 .main-container {
   text-align: center;
-  margin-bottom: 95px;
+  margin-bottom: 200px;
 }
 
 #intro {
@@ -107,9 +107,12 @@ h1, h2 {
   .text {
     width: 65vw;
   }
+  .main-contact ul {
+    font-size: 2.5rem;
+  }
 }
 /* Extra Small Devices, Phones */
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 370px) {
   .text {
     width: 85vw;
   }
@@ -119,7 +122,11 @@ h1, h2 {
   }
 
   .main-contact ul {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+  }
+
+  .main-contact ul li {
+    margin: 0px 0.4rem;
   }
 }
 /* Extra extra Small Devices, Phones */
